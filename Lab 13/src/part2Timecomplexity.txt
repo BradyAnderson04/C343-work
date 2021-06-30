@@ -1,0 +1,12 @@
+Time complexity for Radix sorting:
+
+n = number of elements
+d = number of digit places you need to process
+
+
+after some thought and implementing the algorithm, I realized the time complexity
+which as I understand it is defined by the loops you use.
+
+so for this problem, I think the time complexity will be O(n^d)
+
+I will also include this in submission comment!

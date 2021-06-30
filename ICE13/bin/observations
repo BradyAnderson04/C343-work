@@ -1,0 +1,15 @@
+Here are my observations on the search algorithms I implemented.
+
+
+Firstly the difference between binary and linear search was very apparent in speed. It seems that 
+sorted data sets are much better to work with becasue we can assume various features about their 
+contents that help us do less computation.
+
+Additionally since I am not using complex data structures it doesn't seem that the time is slowed too much, but I
+imagine as more complex/useful structures are used time will go up due to more values being dealt with.
+
+Secondly the use of arrays vs arraylists was very interesting. The time difference was also very apparent in linear search it
+showed across the board using arraylists was much slower than using arrays. The advantage of arraylist though is not lost with
+the few milliseconds that are gained in search time. However my inexperience may be the reason for thinking that.
+
+For binary search there wasn't much of a difference between arraylists and arrys.
